@@ -1,4 +1,4 @@
-#!/run/current-system/sw/bin/perl
+#!/usr/bin/perl -w
 use strict;
 
 die "Usage: $0 oracle.txt hyp-trees.txt\n" unless scalar @ARGV == 2;
